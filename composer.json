@@ -1,0 +1,22 @@
+{
+  "name": "xelent-umar/static-pages",
+  "description": "A Laravel package to manage static pages.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "XelentUmar\\StaticPages\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "XelentUmar\\StaticPages\\StaticPagesServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^11.0"
+  }
+}
